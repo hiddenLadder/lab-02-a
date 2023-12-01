@@ -30,7 +30,6 @@ fn main() {
                 println!("border");
                 process::exit(0);
             } else if x > 0 && y > 0 && h > 400 {
-                dbg!(1);
                 println!("outside");
                 process::exit(0);
             }
